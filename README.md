@@ -22,7 +22,7 @@ The script `my_plotter.py` basically shows how complicated it is to produce a re
 
 Then you're going to have to install all the dependencies. No telling how hard that's going to be. But then you can run the script and get something like this:
 
-[Parking Density](london_parking.png)
+![Parking Density](london_parking.png)
 
 So that's just something simple - namely, the parking area density per postcode area, within N kilometers of Angel station.
 
