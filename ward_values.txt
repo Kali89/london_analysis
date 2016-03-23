@@ -1,0 +1,30 @@
+Barnsbury
+Bunhill
+Caledonian
+Canonbury
+Clerkenwell
+Finsbury Park
+Highbury East
+Highbury West
+Hillrise
+Holloway
+Junction
+Mildmay
+St. Georges
+St. Marys
+St. Peters
+Tollington
+Within Camden (near Caledonian Ward)
+Within Camden (near Clerkenwell Ward)
+Within Camden (near Holloway Ward)
+Within Camden (near St George's Ward)
+Within City (near Bunhill Ward)
+Within City (near Clerkenwell Ward)
+Within Hackney (near Bunhill Ward)
+Within Hackney (near Canonbury Ward)
+Within Hackney (near Highbury East Ward)
+Within Hackney (near Highbury West Ward)
+Within Hackney (near Mildmay Ward)
+Within Haringey (near Finsbury Park Ward)
+Within Haringey (near Hillrise Ward)
+Within Haringey (near Tollington Ward)
