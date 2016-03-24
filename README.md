@@ -26,5 +26,12 @@ Then you're going to have to install all the dependencies. No telling how hard t
 
 So that's just something simple - namely, the parking area density per postcode area, within N kilometers of Angel station.
 
-### Joining the valuations data and planning applications data
-To be done when the planning applications data has downloaded...
+### Examining planning applications data
+The script `parse_planning_data.py` is probably the simplest of the bunch. It goes through the planning data, gets rid of any tricky rows and then looks at which 'change of use' planning applications have recently been refused. 
+
+### Further steps
+Were I to try to use these two datasets (valuations and planning applications) I'd remove the filter on parking spaces on the valuations script. This would give me all the business rates (that weren't parking) in our target area. I'd have to do fuzzy matching to find out how many of those premises recently had failed change of use planning applications (probably wouldn't be loads). At that point you've got the location and area of land that has likely recently taken a dive in price. 
+
+If you're feeling jazzy you can combine that info with the parking space density of an area to order sites in importance.
+
+As a bonus, a commercial developer could almost certainly use this information (but it'd be tricky). Look at all the times planning applications have been rejected in the past and then investigate the change in value of house/commercial prices in the local area (likely to be a small, but non-negligble effect). Get the planning application data as soon as possible (immediately) and you've got an edge. You could also use the information when thinking about purchasing similar properties.
