@@ -26,6 +26,10 @@ Then you're going to have to install all the dependencies. No telling how hard t
 
 So that's just something simple - namely, the parking area density per postcode area, within N kilometers of Angel station.
 
+If we zoom in a bit...
+
+![Closer parking density](close_london_parking.png)
+
 ### Examining planning applications data
 The script `parse_planning_data.py` is probably the simplest of the bunch. It goes through the planning data, gets rid of any tricky rows and then looks at which 'change of use' planning applications have recently been refused. 
 
