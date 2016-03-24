@@ -8,7 +8,7 @@ import cookielib
 all_data = []
 
 with open('ward_values.txt', 'rb') as f:
-    ward_values = [entry.strip() for entry in f.readlines()]
+    ward_values = [entry.strip() for entry in f.readlines() if entry.strip()[0] != '#']
 
 def get_data_from_html(html):
     data = []
@@ -53,6 +53,6 @@ for ward in ward_values:
 
 df = pd.DataFrame(all_data)
 df.columns = ['Address', 'Description', 'Status', 'Date', 'Outcome']
-df['Description'] = df.Description.apply(lambda x: x.strip().encode('utf-8', 'ignore'))
-df['Address'] = df.Address.apply(lambda x: x.strip().encode('utf-8', 'ignore'))
-df.to_csv('planning_data.csv', index=False)
+df['Description'] = df.Description.apply(lambda x: x.strip().encode('utf-8', 'ignore') if x else None)
+df['Address'] = df.Address.apply(lambda x: x.strip().encode('utf-8', 'ignore') if x else None)
+df.to_csv('other_planning_data.csv', index=False)

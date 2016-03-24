@@ -17,7 +17,7 @@ Tollington
 Within Camden (near Caledonian Ward)
 Within Camden (near Clerkenwell Ward)
 Within Camden (near Holloway Ward)
-Within Camden (near St George's Ward)
+#Within Camden (near St Georges Ward)
 Within City (near Bunhill Ward)
 Within City (near Clerkenwell Ward)
 Within Hackney (near Bunhill Ward)
